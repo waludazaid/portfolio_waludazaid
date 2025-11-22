@@ -94,3 +94,18 @@ section {
     margin-bottom: 10px;
     color: black;
 }
+
+.project-section .section-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+}
+
+
+
+.pr
