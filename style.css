@@ -27,7 +27,7 @@ header h1 {
 
 nav a {
     color: white;
-    font-size: 1.srem;
+    font-size: 1.5rem;
     text-decoration: none;
     margin-left: 1.2rem;
     font-weight: bold;
@@ -35,4 +35,60 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    color: white;
+    background-color: blueviolet;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.intro {
+    background-color: rgb(169, 112, 238);
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.card {
+    background-color: rgb(169, 112, 238);
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px black;
+}
+
+.card h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.card p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
 }
