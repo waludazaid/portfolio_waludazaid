@@ -59,6 +59,8 @@ section {
     background-color: rgb(169, 112, 238);
     text-align: center;
     padding: 60px 30px;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px black;
 }
 
 .intro h2 {
